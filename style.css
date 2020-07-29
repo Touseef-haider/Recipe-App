@@ -1,0 +1,44 @@
+.Main-Container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: end;
+    align-items: center;
+    background-color: wheat;
+    color: indigo;
+    border: 2px solid white;
+    grid-gap: 1fr;
+}
+.Main-Container > div{
+    margin-left: 20px;
+}
+.Ing ol li {
+    list-style: none;
+}
+.Search{
+    display: flex;
+    justify-content: center;
+}
+.brand{
+    color: indigo;
+}
+.Search input{
+    width: 400px;
+    text-align: center;
+    border: 1px solid indigo;
+    font-size: larger;
+}
+.Search input:hover{
+    width: 420px;
+}
+.Search button{
+    width: 150px;
+    height: 30px;
+    background-color: grey;
+    color: white;
+    font-size: larger;
+}
+.Search button:hover{
+    color: gray;
+    background-color: white;
+    border: 1px solid indigo;
+}
